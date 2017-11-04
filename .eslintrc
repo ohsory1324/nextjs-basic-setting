@@ -1,0 +1,9 @@
+{
+  "extends": "airbnb",
+  "parser": "babel-eslint",
+  "rules": {
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    "react/react-in-jsx-scope": [0],
+    "no-mixed-operators": ["error", {"allowSamePrecedence": true}]
+  }
+}
